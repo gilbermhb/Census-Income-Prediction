@@ -46,3 +46,10 @@ X_test, y_test = prepare_data(test_data, delimiter=".")
 #### Notes:
 * Uncomment relevant sections to train and evaluate specific models or perform parameter tuning.
 * The delimeter is used to transform the income column given that in the test set that column ends with dot (.)
+
+
+
+## Authors
+
+- [@Andres De Los Santos]()
+- [@Gilber Hernandez](https://www.github.com/gilbermhb)
