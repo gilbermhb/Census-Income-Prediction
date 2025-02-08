@@ -109,5 +109,5 @@ def plot_graphs(data):
     
     
 
-data = load_data('C:/Users/Gilbert Hernandez/OneDrive - Fordham University/CISC 5790 - Data Mining/Project/census-income.data.csv')
+data = load_data('./census-income.data.csv')
 plot_graphs(data)
