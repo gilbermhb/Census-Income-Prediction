@@ -130,8 +130,8 @@ def prepare_data(data, d='.'):
 
 
 
-train_data = load_data('C:/Users/Gilbert Hernandez/OneDrive - Fordham University/CISC 5790 - Data Mining/Project/census-income.data.csv')
-test_data = load_data('C:/Users/Gilbert Hernandez/OneDrive - Fordham University/CISC 5790 - Data Mining/Project/census-income.test.csv')
+train_data = load_data('./census-income.data.csv')
+test_data = load_data('./census-income.test.csv')
 X_train, y_train = prepare_data(train_data, d="")
 X_test, y_test = prepare_data(test_data, d=".")
 
